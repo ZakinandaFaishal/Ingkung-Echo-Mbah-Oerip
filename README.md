@@ -1,6 +1,6 @@
 # Ingkung Echo Mbah Oerip
 
-Proyek ini adalah website pemesanan ayam kampung khas Mbah Oerip. Dibuat menggunakan PHP dan MySQL.
+Proyek ini adalah website pemesanan ayam Ingkung khas Mbah Oerip. Dibuat menggunakan PHP dan MySQL.
 
 ## Cara Menjalankan
 1. Clone repository ini
