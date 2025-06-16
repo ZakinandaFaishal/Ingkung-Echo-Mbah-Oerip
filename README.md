@@ -1,5 +1,4 @@
 # Ingkung Echo Mbah Oerip
-
 Proyek ini adalah website pemesanan ayam Ingkung khas Mbah Oerip. Dibuat menggunakan PHP dan MySQL.
 
 ## Cara Menjalankan
@@ -22,6 +21,11 @@ window.location.href="http://localhost/mbah.oerip/main/index.php"; -> Untuk Ekse
 ## Login Sebagai Admin di Localhost
 - Username: zakinanda@localhost
 - Password: 123
+
+atau dapat disesuaikan sendiri untuk anda sebagai aktor apa pada database, terletak pada tabel 'users' atribut 'level'
+'a' = admin
+'u' = user
+'o' = owner
 
 ## Developer
 Zakinanda Faishal - 2025
