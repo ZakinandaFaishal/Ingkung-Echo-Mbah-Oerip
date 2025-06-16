@@ -7,11 +7,23 @@ Proyek ini adalah website pemesanan ayam Ingkung khas Mbah Oerip. Dibuat menggun
 2. Import `database/mbaheoerip.sql` ke phpMyAdmin
 3. Jalankan `index.php` di localhost (XAMPP/Laragon)
 
+## Note
+1. Ubah window.location.href="http://main.ingkungecombahoerip.web.id/index.php"; Menjadi -> 
+window.location.href="http://localhost/mbah.oerip/main/index.php"; -> Untuk Eksekusi di Local
+2. untuk reset Password informasi domain, sesuaikan dengan domain server
+    $domain = "http://localhost/mbah.oerip/main/reset_password.php?";
+
 ## Struktur
 - `main/` : Halaman dan fitur utama User
 - `admin/` : Halaman dan fitur admin
 - `assets/` : Gambar dan file frontend
 - `koneksi.php` : File koneksi database
 
+## Login Sebagai Admin di Localhost
+- Username: zakinanda@localhost
+- Password: 123
+
 ## Developer
 Zakinanda Faishal - 2025
+
+
