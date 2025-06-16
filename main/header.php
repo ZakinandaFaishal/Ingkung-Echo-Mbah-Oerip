@@ -104,7 +104,7 @@
       ?>
       
       <?php 
-      if (isset($_SESSION['user']['level']) && $_SESSION['user']['level'] === 'admin') {
+      if (isset($_SESSION['user']['level']) && $_SESSION['user']['level'] === 'a') {
         echo '<form action="admin/index.php" method="get">
                 <button type="submit" class="btn">Dashboard</button>
               </form>';

@@ -10,7 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $query);
 
     //informasi domain, sesuaikan dengan domain server
-    $domain = "http://main.ingkungecombahoerip.web.id";
+    $domain = "http://main.ingkungecombahoerip.web.id/reset_password.php?";
+    // http://localhost/mbah.oerip/main/reset_password.php?
 
     if (mysqli_num_rows($result) == 1) {
         // Generate token unik

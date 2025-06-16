@@ -6,7 +6,7 @@ if($_SESSION['user']['level'] != "a")
 
   echo '<script>
         alert("Maaf akses terbatas....");
-        window.location.href="http://localhost/mbah.oerip/main/index.php";
+        window.location.href="main.ingkungecombahoerip.web.id/index.php";
       </script>';
 }
     //  window.location.href="http://localhost/mbah.oerip/main/index.php";
