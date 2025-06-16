@@ -10,8 +10,8 @@ Proyek ini adalah website pemesanan ayam Ingkung khas Mbah Oerip. Dibuat menggun
 ## Note
 1. Ubah window.location.href="http://main.ingkungecombahoerip.web.id/index.php"; Menjadi -> 
 window.location.href="http://localhost/mbah.oerip/main/index.php"; -> Untuk Eksekusi di Local
-2. untuk reset Password informasi domain, sesuaikan dengan domain server
-    $domain = "http://localhost/mbah.oerip/main/reset_password.php?";
+2. untuk reset Password informasi domain, sesuaikan dengan domain server,
+    untuk local -> $domain = "http://localhost/mbah.oerip/main/reset_password.php?";
 
 ## Struktur
 - `main/` : Halaman dan fitur utama User
